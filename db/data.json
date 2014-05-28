@@ -1,0 +1,12 @@
+{"type": "breakfast", "name": "eggs", "cost": 2.00, "calories": 150};
+{"type": "breakfast", "name": "sausage", "cost": 3.00, "calories": 300};
+{"type": "breakfast", "name": "hasbrowns", "cost": 1.50, "calories": 350};
+{"type": "lunch", "name": "sandwich", "cost": 5.00, "calories": 500};
+{"type": "lunch", "name": "chips", "cost": 2.00, "calories": 200};
+{"type": "lunch", "name": "wrap", "cost": 6.00, "calories": 400};
+{"type": "dinner", "name": "burger", "cost": 7.00, "calories": 600};
+{"type": "dinner", "name": "fries", "cost": 3.00, "calories": 350};
+{"type": "dinner", "name": "chicken", "cost": 7.50, "calories": 550};
+{"type": "drink", "name": "juice", "cost": 2.00, "calories": 200};
+{"type": "drink", "name": "coke", "cost": 1.50, "calories": 300};
+{"type": "drink", "name": "alcohol", "cost": 5.00, "calories": 400};

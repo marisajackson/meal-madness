@@ -1,0 +1,15 @@
+h2 Current Order
+table#current
+  thead
+    th Qty
+    th Name
+  tbody
+    each key in keys
+      tr
+        td #{order.items[key]}
+        td= key
+
+#controls
+  #cals Total Calories: #{order.cals}
+  #total Total: $#{order.total.toFixed(2)}
+  button#placeorder Place Order

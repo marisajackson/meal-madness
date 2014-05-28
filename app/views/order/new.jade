@@ -1,0 +1,77 @@
+h2.neworder(data-id='#{order._id.toString()}') New Order
+
+  h3 Breakfast
+  table
+    thead
+      th Qty
+      th Name
+      th Cost
+      th Calories
+      th Add
+    tbody
+      each food in breakfast
+        tr
+           td
+            input.qty(class='#{food.type}#{food.name}', placeholder='qty')
+           td #{food.name}
+           td $#{food.cost.toFixed(2)}
+           td #{food.calories}
+           td
+             button.add(data-id='#{food._id.toString()}') Add to Order
+
+  h3 Lunch
+  table
+    thead
+      th Qty
+      th Name
+      th Cost
+      th Calories
+      th Add
+    tbody
+      each food in lunch
+        tr
+           td
+            input.qty(class='#{food.type}#{food.name}', placeholder='qty')
+           td #{food.name}
+           td $#{food.cost.toFixed(2)}
+           td #{food.calories}
+           td
+             button.add(data-id='#{food._id.toString()}') Add to Order
+
+  h3 Dinner
+  table
+    thead
+      th Qty
+      th Name
+      th Cost
+      th Calories
+      th Add
+    tbody
+      each food in dinner
+        tr
+           td
+            input.qty(class='#{food.type}#{food.name}', placeholder='qty')
+           td #{food.name}
+           td $#{food.cost.toFixed(2)}
+           td #{food.calories}
+           td
+             button.add(data-id='#{food._id.toString()}') Add to Order
+
+  h3 Drinks
+  table
+    thead
+      th Qty
+      th Name
+      th Cost
+      th Calories
+      th Add
+    tbody
+      each food in drink
+        tr
+           td
+            input.qty(class='#{food.type}#{food.name}', placeholder='qty')
+           td #{food.name}
+           td $#{food.cost.toFixed(2)}
+           td #{food.calories}
+           td
+             button.add(data-id='#{food._id.toString()}') Add to Order
